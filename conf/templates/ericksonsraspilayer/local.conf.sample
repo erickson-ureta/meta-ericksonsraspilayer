@@ -289,3 +289,4 @@ PACKAGECONFIG:append:pn-qemu-system-native = " sdl"
 CONF_VERSION = "2"
 
 LICENSE_FLAGS_ACCEPTED += "synaptics-killswitch"
+ENABLE_UART = "1"

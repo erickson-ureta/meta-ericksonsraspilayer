@@ -36,7 +36,6 @@
 #MACHINE ?= "genericx86-64"
 #
 # This sets the default machine to be qemux86-64 if no other machine is selected:
-#MACHINE ??= "qemux86-64"
 MACHINE ??= "raspberrypi3"
 
 # These are some of the more commonly used values. Looking at the files in the
@@ -70,7 +69,7 @@ MACHINE ??= "raspberrypi3"
 #
 # The default is a sstate-cache directory under TOPDIR.
 #
-#SSTATE_DIR ?= "${TOPDIR}/sstate-cache"
+SSTATE_DIR ?= "${TOPDIR}/sstate-cache"
 
 #
 # Where to place the build output

@@ -81,7 +81,7 @@ SSTATE_DIR ?= "${TOPDIR}/sstate-cache"
 #
 # The default is a tmp directory under TOPDIR.
 #
-#TMPDIR = "${TOPDIR}/tmp"
+TMPDIR = "${TOPDIR}/tmp"
 
 #
 # Default policy config
@@ -91,7 +91,7 @@ SSTATE_DIR ?= "${TOPDIR}/sstate-cache"
 # Ultimately when creating custom policy, people will likely end up subclassing 
 # these defaults.
 #
-DISTRO ?= "poky"
+DISTRO ?= "ericksonsraspilayer"
 # As an example of a subclass there is a "bleeding" edge policy configuration
 # where many versions are set to the absolute latest code from the upstream 
 # source control systems. This is just mentioned here as an example, its not
@@ -286,6 +286,3 @@ PACKAGECONFIG:append:pn-qemu-system-native = " sdl"
 # track the version of this file when it was generated. This can safely be ignored if
 # this doesn't mean anything to you.
 CONF_VERSION = "2"
-
-LICENSE_FLAGS_ACCEPTED += "synaptics-killswitch"
-ENABLE_UART = "1"

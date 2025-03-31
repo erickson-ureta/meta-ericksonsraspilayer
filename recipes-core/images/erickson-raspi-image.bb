@@ -1,4 +1,8 @@
-include recipes-core/images/rpi-test-image.bb
+include recipes-core/images/core-image-base.bb
 
-IMAGE_INSTALL += "helloworld"
-IMAGE_INSTALL += "vim-tiny"
+COMPATIBLE_MACHINE = "^rpi$"
+
+IMAGE_INSTALL:append = "helloworld"
+IMAGE_INSTALL:append = "util-linux"
+IMAGE_INSTALL:append = "vim"
+IMAGE_INSTALL:append = "ffmpeg"

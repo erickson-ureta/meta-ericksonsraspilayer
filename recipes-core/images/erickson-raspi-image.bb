@@ -23,5 +23,6 @@ IMAGE_INSTALL:append = " linux-firmware-bcm43430"
 
 IMAGE_INSTALL:append = " ffmpeg"
 IMAGE_INSTALL:append = " helloworld"
+IMAGE_INSTALL:append = " python3"
 IMAGE_INSTALL:append = " util-linux"
 IMAGE_INSTALL:append = " vim"

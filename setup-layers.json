@@ -1,0 +1,84 @@
+{
+    "sources": {
+        "meta-ericksonsraspilayer": {
+            "contains_this_file": true,
+            "git-remote": {
+                "branch": "main",
+                "describe": "",
+                "remotes": {
+                    "origin": {
+                        "uri": "git@github.com:erickson-ureta/meta-ericksonsraspilayer.git"
+                    }
+                },
+                "rev": "954d8306a4626f2884ea025523a5b7a8f7574f58"
+            },
+            "path": "meta-ericksonsraspilayer"
+        },
+        "meta-openembedded": {
+            "git-remote": {
+                "branch": "scarthgap",
+                "describe": "",
+                "remotes": {
+                    "origin": {
+                        "uri": "https://git.openembedded.org/meta-openembedded"
+                    }
+                },
+                "rev": "edd1a1e284fdcb80cd48d411f235d47f23bc27ae"
+            },
+            "path": "meta-openembedded"
+        },
+        "meta-raspberrypi": {
+            "git-remote": {
+                "branch": "scarthgap",
+                "describe": "",
+                "remotes": {
+                    "origin": {
+                        "uri": "git://git.yoctoproject.org/meta-raspberrypi"
+                    }
+                },
+                "rev": "c153c694bd7a08de474470d7c1c7fd550117b162"
+            },
+            "path": "meta-raspberrypi"
+        },
+        "meta-rauc": {
+            "git-remote": {
+                "branch": "scarthgap",
+                "describe": "",
+                "remotes": {
+                    "origin": {
+                        "uri": "https://github.com/rauc/meta-rauc"
+                    }
+                },
+                "rev": "76b97796be1d0303436835e56d85d7316a1029d9"
+            },
+            "path": "meta-rauc"
+        },
+        "meta-rauc-community": {
+            "git-remote": {
+                "branch": "scarthgap",
+                "describe": "",
+                "remotes": {
+                    "origin": {
+                        "uri": "https://github.com/rauc/meta-rauc-community"
+                    }
+                },
+                "rev": "82816d63eba53b59c63b3db0557c962ff4290a91"
+            },
+            "path": "meta-rauc-community"
+        },
+        "poky": {
+            "git-remote": {
+                "branch": "scarthgap",
+                "describe": "yocto-5.0.7-142-gdcb242eb19",
+                "remotes": {
+                    "origin": {
+                        "uri": "git://git.yoctoproject.org/poky"
+                    }
+                },
+                "rev": "dcb242eb1926f393fb08738875232824e69e11e4"
+            },
+            "path": "poky"
+        }
+    },
+    "version": "1.0"
+}

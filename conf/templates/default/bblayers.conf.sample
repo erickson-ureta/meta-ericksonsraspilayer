@@ -17,7 +17,6 @@ BBLAYERS ?= " \
   ##OEROOT##/../meta-openembedded/meta-gnome \
   ##OEROOT##/../meta-openembedded/meta-xfce \
   ##OEROOT##/../meta-ericksonsraspilayer \
-  ##OEROOT##/../../build/workspace \
   ##OEROOT##/../meta-rauc \
   ##OEROOT##/../meta-rauc-community/meta-rauc-raspberrypi \
   "

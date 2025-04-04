@@ -21,7 +21,11 @@ IMAGE_INSTALL:append = " packagegroup-xfce-base"
 IMAGE_INSTALL:append = " iwd"
 IMAGE_INSTALL:append = " linux-firmware-bcm43430"
 
+# SSH server support
+IMAGE_FEATURES:append = " ssh-server-openssh"
+
 IMAGE_INSTALL:append = " ffmpeg"
+IMAGE_INSTALL:append = " file"
 IMAGE_INSTALL:append = " helloworld"
 IMAGE_INSTALL:append = " python3"
 IMAGE_INSTALL:append = " util-linux"
